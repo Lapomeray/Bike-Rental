@@ -1,0 +1,76 @@
+.homeDiv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.rentalItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+
+  margin-top: 100px;
+
+}
+
+
+.itemName , .itemPrice , .itemType , .itemButton{
+  font-family: Montserrat;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.itemName{
+  font-size: 22px;
+}
+
+.itemPrice{
+  font-size: 20px;
+}
+
+.itemType{
+  color: #777A85;
+}
+
+.itemImg{
+  border-radius: 8px;
+}
+
+
+.itemButton{
+  font-size: 18px;
+  border: 2px solid #4265F8;
+  border-radius: 8px;
+  color: #4265F8;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+.itemButton:hover {
+  background-color: #4265F8;
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+
+  .homeDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    align-items: center;
+  }
+  .rentalItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //width: 33%;
+
+
+  }
+
+}
